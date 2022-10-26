@@ -28,3 +28,7 @@ h3{
 }
 
 
+/* Input form */
+input, textarea{
+  border: 1px solid black;
+}

@@ -13,8 +13,8 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header inline-flex mt-4 w-full justify-between">
-        <h3 className="text-lg ml-10 hover:text-blue-300"><a href ="#about" id="name_a">Brendan Tuckerman</a></h3>
+      <header className="App-header inline-flex mt-4 w-full justify-between ">
+        <h3 className="text-lg ml-10 hover:text-blue-300 "><a href ="#about" id="name_a">Brendan Tuckerman</a></h3>
             
             <nav className='mr-10'>
               <ul className="inline-flex text-xs">

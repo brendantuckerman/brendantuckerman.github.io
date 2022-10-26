@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700;900&display=swap');
 
 :root{
-  font-size: 18pt;
+  font-size: 10pt;
   scroll-behavior: smooth;
 }
+
 
 
 body {
@@ -32,3 +33,11 @@ h3{
 input, textarea{
   border: 1px solid black;
 }
+
+/*Media Queries for font size*/
+@media screen and (min-width:600px) {
+    :root{
+      font-size: 18pt;
+    }
+}
+

@@ -6,7 +6,7 @@ const About = () => {
 
         <div className="w-full">
             <h2 className="text-center text-[3em]">About Me</h2>
-            <div className="m-10 flex" id="about" >
+            <div className="m-10 md:flex" id="about" >
              <div className="m-10">
                 <div id="red_square" className="shape flex justify-center align-center h-full">
                 <img src="../img/profile.jpg" className="rounded-full relative top-3 h-[70%] w-[80%] border-4 border-black" />

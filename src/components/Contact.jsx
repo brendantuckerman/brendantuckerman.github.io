@@ -15,16 +15,16 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form.current);
-
-    // emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
-    //   .then((result) => {
-    //       console.log(result.text);
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
     
-     setShowForm(false);
+
+    emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    
+     setShowForm(false);//hide the form and show a thankyou message
 
   };
 

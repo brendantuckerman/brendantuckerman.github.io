@@ -36,7 +36,7 @@ const Contact = () => {
         showForm ? (
             
 
-            <form ref={form} onSubmit={sendEmail} className=" flex flex-col justify-center w-[80%] align-center m-20">
+            <form ref={form} onSubmit={sendEmail} className=" flex flex-col justify-center w-[80%] align-center m-10">
             <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col">
                 <label htmlFor="first-name">First name</label>

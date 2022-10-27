@@ -39,5 +39,34 @@ input, textarea{
     :root{
       font-size: 18pt;
     }
+
+    .hide{
+      display: inline-flex !important;
+    }
+
+    .show{
+      display: none;
+    }
 }
+
+
+/* Nav bar and hamburger menu*/
+
+/* Hide the nav bar on small screens */
+.hide{
+  display: none;
+}
+
+/*We will add this class name to .socials so the menu is animated */
+.arrive{
+    animation: openMenu 1s 0.2s ;
+    width: 100%;
+    
+
+}
+
+@keyframes openMenu{
+  from {width:0}
+}
+
 

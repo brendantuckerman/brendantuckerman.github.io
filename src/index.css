@@ -59,14 +59,21 @@ input, textarea{
 
 /*We will add this class name to .socials so the menu is animated */
 .arrive{
-    animation: openMenu 1s 0.2s ;
-    width: 100%;
+    animation: openMenu;
+    animation-duration: 1s;
+    height: 200px;
+    overflow: hidden;
+    display: inline-flex !important;
     
 
 }
+.socials{
+  display: none;
+}
 
-@keyframes openMenu{
-  from {width:0}
+@keyframes openMenu {
+  from {height: 0}
+  to {height: 200px}
 }
 
 

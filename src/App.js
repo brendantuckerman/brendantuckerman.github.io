@@ -15,7 +15,12 @@ function App() {
   function showMenu(){
       console.log('Clicked');
       const menuItems = document.querySelector(".socials")
-      menuItems.classList.add("arrive")
+      if(menuItems.classList.contains("arrive")){
+        menuItems.classList.remove("arrive")
+      } else{
+        menuItems.classList.add("arrive")
+      
+      }
       
   }
 
@@ -42,7 +47,7 @@ function App() {
                   <rect y="20" width="50" height="10"></rect>
                   <rect y="40" width="50" height="10"></rect>
                 </svg>
-                <div id ="socials" class="dropdown-content flex flex-col text-xl absolute socials">
+                <div id ="socials" class="dropdown-content flex flex-col text-[2em] absolute socials">
                     <a href="mailto:brendan.tuckerman@gmail.com?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="ri-mail-line"></i> </a>
                     <a href="https://github.com/MrMaverick79" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i> </a>
                     <a href="https://twitter.com/newtr1ck" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-fill"></i> </a>

@@ -29,6 +29,32 @@ const Projects =()=> {
                 </div>
             </div>
         </div>
+        {/* -URL SHORTN */}
+        <div class="flex justify-center mt-10">
+            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-5">
+                <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="../img/shrtUrl.png" alt="a screenshot from srt.URL showing thee main page with a shortened url." />
+                <div class="p-2 flex flex-col justify-start">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">shrtn.URL</h5>
+                <p class="text-gray-700 text-base mb-4">
+                MERN Stack project that takes a URL and provdes a shortened link. Back end hosted on Render.
+                </p>
+                    <div className="buttons p-2">
+                        <a href="https://mrmaverick79.github.io/url-shorten-react-frontend/" target="_blank" rel="noopener noreferrer" >
+                        <button type="button" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-20 m-2">Demo</button></a> <a href="https://github.com/MrMaverick79/url-shorten-react-frontend"
+                        target="_blank" rel="noopener noreferrer"><button type="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-20">GitHub</button></a>
+
+                    </div>
+                    <div className="icons text-[2em]">
+                        <i class="devicon-mongodb-plain-wordmark colored p-2"></i>
+                        <i class="devicon-express-original-wordmark colored p-2"></i>
+                        <i className="devicon-react-original-wordmark colored p-2"></i>
+                        <i class="devicon-nodejs-plain-wordmark"></i>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
         {/* 3-GOOD POINT */}
         <div class="flex justify-center mt-10">
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-5">

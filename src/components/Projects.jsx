@@ -36,7 +36,7 @@ const Projects =()=> {
                 <div class="p-2 flex flex-col justify-start">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">shrtn.URL</h5>
                 <p class="text-gray-700 text-base mb-4">
-                MERN Stack project that takes a URL and provdes a shortened link. Back end hosted on Render.
+                MERN Stack project that takes a URL and provides a shortened link. Node.js back end hosted on Render.
                 </p>
                     <div className="buttons p-2">
                         <a href="https://mrmaverick79.github.io/url-shorten-react-frontend/" target="_blank" rel="noopener noreferrer" >

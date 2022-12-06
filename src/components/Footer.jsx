@@ -8,7 +8,7 @@ const Footer =()=>{
                 <p className='text-xs'>Built with React, Tailwind CSS, JavaScript, and email.js </p>
             </div>
             <div className="links ml-20 text-2xl">
-                <a href="https://twitter.com/newtr1ck" target="_blank" rel="noopener noreferrer"> 
+                <a href="https://fosstodon.org/@mrmaverick" target="_blank" rel="noopener noreferrer"> 
                 <i class="devicon-twitter-original p-2 hover:cursor-pointer"></i></a>
                 <a href="https://github.com/MrMaverick79" target="_blank" rel="noopener noreferrer"> 
                 

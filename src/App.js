@@ -50,7 +50,7 @@ function App() {
                 <div id ="socials" class="dropdown-content flex flex-col text-[2em] absolute socials">
                     <a href="mailto:brendan.tuckerman@gmail.com?subject=Hello!" target="_blank" rel="noopener noreferrer"><i class="ri-mail-line"></i> </a>
                     <a href="https://github.com/MrMaverick79" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i> </a>
-                    <a href="https://twitter.com/newtr1ck" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-fill"></i> </a>
+                    <a href="https://fosstodon.org/@mrmaverick" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-fill"></i> </a>
                     <a href="https://www.linkedin.com/in/brendan-tuckerman/" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-box-fill"></i> </a>
                     
                 </div>

@@ -10,7 +10,7 @@ const Main = () => {
     }, [])
 
     const wordEffect= ()=> {
-        let words = ["stuff.", 'websites.', 'cool solutions.','because I love it.', 'databases and servers.', 'solutions.', "to solve problems.", "with React.", "with jQuery.", "in Ruby.", "with Python.", "with JavaScript.", "applications.", 'for fun', 'with Vue.js'],
+        let words = ["Drupal websites.", "with CSS.", "stuff.", 'websites.', 'cool solutions.','because I love it.', 'databases and servers.', 'solutions.', "to solve problems.", "with React.", "with jQuery.", "in Ruby.", "with Python.", "with JavaScript.", "applications.", 'for fun', 'with Vue.js'],
         part,
         i = 0,
         offset = 0,

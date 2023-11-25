@@ -6,8 +6,33 @@ const Projects =()=> {
     return(
         <div className="wrapper flex flex-col w-[100vw] text-center">
             <h2 className="text-center text-[3em]" id="projects">Recent Projects</h2>
+            {/* Serious Business */}
             <div class="flex justify-center mt-10" >
-            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-10">
+              <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-10">
+                <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="../img/serious-business.png" alt="A screenshot from Serious Business" />
+                <div class="p-2 flex flex-col justify-start">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">Serious Business</h5>
+                <p class="text-gray-700 text-base mb-4">
+                    An example of a Drupal 10 project using Composer and hosted on patheon.io. It uses custome themes, blocks, and views to generate a demonstration of how Drupal could be used for an organisation.
+                </p>
+                    <div className="buttons p-2">
+                        <a href="https://dev-serious-business.pantheonsite.io/" target="_blank" rel="noopener noreferrer" >
+                        <button type="button" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-20 m-2">Demo</button></a> <a href="https://github.com/MrMaverick79/" target="_blank" rel="noopener noreferrer"><button type="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-20">GitHub</button></a>
+
+                    </div>
+                    <div className="icons text-[2em]">
+                        
+                        <i class="devicon-drupal-plain-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-composer-line-wordmark colored"></i>
+                        <i className="devicon-javascript-plain colored p-2"></i>             
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/* You autocomplete me */}
+            <div class="flex justify-center mt-10" >
+              <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-10">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="../img/yam.png" alt="A screenshot from you autocomplete me" />
                 <div class="p-2 flex flex-col justify-start">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">you (auto)complete me</h5>
@@ -81,33 +106,9 @@ const Projects =()=> {
         </div>
 
 
-        {/* 3-HOOKIE */}
-        <div class="flex justify-center mt-10">
-            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-5">
-                <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="../img/hookie.png" alt="Hookie bookmars, showing the bookmarks page." />
-                <div class="p-2 flex flex-col justify-start">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">HOOKIE Bookmarks</h5>
-                <p class="text-gray-700 text-base mb-4">
-                Full-stack project allowing users to store, add, and sort online bookmarks. Also uses a FireFox browser extension so user can add their favourites from anywhere.
-                </p>
-                    <div className="buttons p-2">
-                        <a href="https://hookiebookmarks.herokuapp.com/" target="_blank" rel="noopener noreferrer" >
-                        <button type="button" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-20 m-2">Demo</button></a> <a href="https://github.com/MrMaverick79/hookie-app" target="_blank" rel="noopener noreferrer"><button type="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-20">GitHub</button></a>
+              
 
-                    </div>
-                    <div className="icons text-[2em]">
-                    <i class="devicon-rails-plain colored"></i>
-                        <i class="devicon-ruby-plain-wordmark colored p-2"></i>
-                        <i class="devicon-firefox-plain colored p-2"></i>
-                        <i class="devicon-postgresql-plain-wordmark colored  p-2"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-       
-
-        {/* 4  - TTT*/}
+        {/* 3  - TTT*/}
         <div class="flex justify-center mt-10">
             <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-4 border-slate-200 p-5">
                 <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="../img/ttt.png" alt="a screenshot from youautocomplete me, showing one of the poems." />

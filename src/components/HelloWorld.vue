@@ -5,35 +5,16 @@ defineProps<{
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="text-white">{{ msg }}</h1>
-    <p>
-      I'm a web developer who loves learning new things.
-    </p>
+  <div class="greeting container">
+    <h1 class="text-6xl">{{ msg }}</h1>
+    <h2 class="text-5xl">
+     Web Developer
+    </h2>
+    <ul class="flex px-4 gap-4">
+        <li> <font-awesome-icon :icon="['fab', 'github']" /></li>
+        <li> <font-awesome-icon :icon="['fab', 'linkedin']" /></li>
+        <li> <font-awesome-icon :icon="['fab', 'mastodon']" /></li>
+      </ul>
   </div>
 </template>
 
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
-</style>

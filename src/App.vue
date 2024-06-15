@@ -5,24 +5,13 @@ import TheSidebar from './components/TheSidebar.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="A headshot of Brendan Tuckerman" class="rounded-full w-40 h-40 border-2 border-slate-700" src="@/assets/img/tucbr1.webp"  />
+  <header class="flex relative ml-16">
+    <img alt="A headshot of Brendan Tuckerman" class="rounded-full w-40 h-40 border-4 border-blue-400" src="@/assets/img/tucbr1.webp"  />
 
     <div class="wrapper">
-      <HelloWorld msg="Brendan Tuckerman" />
+      <HelloWorld msg="BRENDAN TUCKERMAN" />
 
-      <ul>
-        <li> <i class="devicon-github-original-wordmark h-16"></i></li>
-        <li> <i class="devicon-linkedin-plain"></i></li>
-        <li> <img src="../src/assets/img/logo-black.svg"/></li>
-      </ul>
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-      </nav>
+      
     </div>
   </header>
   <TheSidebar />

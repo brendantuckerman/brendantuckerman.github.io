@@ -7,7 +7,31 @@
 
 body{
     background: 
-    linear-gradient(to top, #130751ba, #9005eccc),
+    linear-gradient(to top, #ba040A28, #6A04AF),
         url(./img/bg-texture.jpg);
     @apply bg-no-repeat bg-center bg-cover;
+
 }
+
+html{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+h1,
+h2{
+    @apply text-[#fff] font-bold;
+
+}
+
+h3
+h4,
+h5,
+h6,
+p,
+span,
+a,
+i{
+    @apply text-grey;
+}   
+

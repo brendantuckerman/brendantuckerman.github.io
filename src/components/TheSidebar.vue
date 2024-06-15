@@ -1,12 +1,15 @@
 <template>
     <!-- A sidebar menu -->
     <div class="absolute flex flex-col items-center left-0 h-screen">
+      <nav>
         <ul class="flex flex-col justify-evenly h-screen mb-16">
-            <li class="border-2 border-grey rounded h-8 w-8"><font-awesome-icon :icon="['fas', 'user-secret']" /></li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <RouterLink to="/"><li class="flex gap-2 h-8 w-8"><font-awesome-icon :icon="['fas', 'house']" />Home</li></RouterLink>
+            <RouterLink to="/about"><li class="flex gap-2 h-8 w-8"><font-awesome-icon :icon="['fas', 'house']" />About</li></RouterLink>
+            <RouterLink to="/projects">Recent Projects</RouterLink>
+            <RouterLink to="/contact">Contact</RouterLink>
+            <RouterLink to="/">Resume</RouterLink>
         </ul>
+      </nav>
 
     </div>
 

@@ -18,13 +18,17 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import { faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons'
 //Brand icons
 import { faMastodon } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faHouse, faMastodon, faGithub, faLinkedin )
+library.add(faHouse, faBook, faAddressBook, faWrench,  faPaperclip, faMastodon, faGithub, faLinkedin )
 
 const app = createApp(App)
 

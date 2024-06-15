@@ -7,7 +7,7 @@
 
 body{
     background: 
-    linear-gradient(to top, #ba040A28, #6A04AF),
+    linear-gradient(to top, #25040528, #340156),
         url(./img/bg-texture.jpg);
     @apply bg-no-repeat bg-center bg-cover;
 

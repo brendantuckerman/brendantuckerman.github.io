@@ -12,7 +12,7 @@ export default {
 
       },
       'purple': '#6A04AF', //bg-2
-      'grey': '#E3E3E3'
+      'grey': '#BFBFBF'
 
     },
     container:{

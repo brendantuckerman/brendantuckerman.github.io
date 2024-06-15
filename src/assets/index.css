@@ -31,7 +31,8 @@ h6,
 p,
 span,
 a,
-i{
+i,
+svg{
     @apply text-grey;
 }   
 

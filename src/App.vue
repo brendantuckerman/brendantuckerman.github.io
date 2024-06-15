@@ -1,23 +1,31 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import TheSidebar from './components/TheSidebar.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo rounded-full w-40 h-40" src="@/assets/img/tucbr1.webp"  />
+    <img alt="A headshot of Brendan Tuckerman" class="rounded-full w-40 h-40 border-2 border-slate-700" src="@/assets/img/tucbr1.webp"  />
 
     <div class="wrapper">
       <HelloWorld msg="Brendan Tuckerman" />
+
+      <ul>
+        <li> <i class="devicon-github-original-wordmark h-16"></i></li>
+        <li> <i class="devicon-linkedin-plain"></i></li>
+        <li> <img src="../src/assets/img/logo-black.svg"/></li>
+      </ul>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
+        <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>
   </header>
-
+  <TheSidebar />
   <RouterView />
 </template>
 
@@ -27,10 +35,6 @@ header {
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
 
 nav {
   width: 100%;

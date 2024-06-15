@@ -7,9 +7,9 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="text-white">{{ msg }}</h1>
-    <h3>
+    <p>
       I'm a web developer who loves learning new things.
-    </h3>
+    </p>
   </div>
 </template>
 

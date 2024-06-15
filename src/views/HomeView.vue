@@ -9,7 +9,7 @@ import TheWelcome from '../components/TheWelcome.vue'
         Hello World!
       </h2>
       <h3 class="text-2xl text-grey">
-        I'm Brendan 👋
+        I'm Brendan  <span class="animate-waving-hand">👋</span>
       </h3>
       <p class="text-lg">
         I'm a web developer who aspires to make a difference through technology.  I'm energized by finding solutions to complex problems in creative ways and through an unceasing curiosity about learning new things. 

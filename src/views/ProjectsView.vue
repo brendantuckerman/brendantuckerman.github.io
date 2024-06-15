@@ -3,8 +3,11 @@
 </script>
 
 <template>
-    <div class="projects">
-    <h1>This is for my projects page</h1>
-  </div>
+    <section>
+        <div class="projects">
+        <h2>Recent Projects</h2>
+        </div>
+
+    </section>
 
 </template>

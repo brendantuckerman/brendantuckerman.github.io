@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="greeting flex flex-col justify-center items-center gap-4">
+  <div class="greeting flex flex-col justify-center items-center gap-4 ">
     <h1 class="text-6xl text-center">{{ msg }}</h1>
     <h2 class="text-4xl">
      Web Developer

@@ -6,39 +6,45 @@
     url: "/path",
     imgURL: "/path",
     description: "A retro theme built with Nuxt.js",
-    builtWith: ["devicon-nuxtjs-plain-wordmark", "devicon-tailwindcss-plain-wordmark",
+    builtWith: ["devicon-nuxtjs-plain", "devicon-tailwindcss-plain",
     "devicon-typescript-plain"
-    ]
+    ],
+    builtText: ["#Nuxt", "#vue", "#tailwind", "#typescript" ],
    },
    {
-    name: "Serious Business",
-    url: "/path",
-    imgURL: "/path",
-    description: "An example Drupal site for a business, demonstarting the use of paragraphs.",
-    builtWith: ["devicon-drupal-plain-wordmark", "devicon-tailwindcss-plain-wordmark"]
+    name: "Selling to Government",
+    url: "https://sellingtogov.finance.gov.au/",
+    imgURL: "src/assets/img/stg-screen.webp",
+    description: "A rebuild for the Australia Federal Government on the GovCMS platform.",
+    builtWith: ["devicon-drupal-plain-wordmark", "devicon-tailwindcss-plain"],
+    builtText: ["#Nuxt", "#vue", "#tailwind", "#typescript" ],
+   
    },
    {
     name: "You (auto)complete me",
-    url: "/path",
-    imgURL: "src/assets/img/yacm-screen.png",
+    url: "https://brendantuckerman.github.io/you-autocomplete-me/",
+    imgURL: "src/assets/img/yacm-screen.webp",
     description: "A Machine Learning project built with React that allows users to write poetry alongside famous authors from history.",
-    builtWith: ["devicon-react-plain-wordmark", "devicon-tailwindcss-plain-wordmark"]
+    builtWith: ["devicon-react-plain-wordmark", "devicon-tailwindcss-plain"],
+    builtText: ["#Nuxt", "#vue", "#tailwind", "#typescript" ],
+    
    },
    {
     name: "Curriculum Tool",
-    url: "/path",
-    imgURL: "/path",
-    description: "A Ruby on Rails project that maps the Australian National Curriculum",
-    builtWith: ["devicon-ruby-plain-wordmark", "devicon-javascript-plain"]
-   },
-
+    url: "https://github.com/brendantuckerman/curriculum-tool-db",
+    imgURL: "src/assets/img/ct-screen.webp",
+    description: "A Ruby on Rails project that models the Australian National Curriculum as a back end.",
+    builtWith: ["devicon-ruby-plain-wordmark", "devicon-javascript-plain"],
+    builtText: ["#Nuxt", "#vue", "#tailwind", "#typescript" ],
+   
+   }, 
  ]
- 
+
 </script>
 
 <template>
     <main>
-        <section class="flex flex-col gap-2 border-l-[1px] border-grey p-12">
+        <section class="flex flex-col gap-4 border-l-[1px] border-grey p-12 max-h-[80vh] overflow-scroll">
             <div class="contact-title animate__animated animate__fadeInDown">
                 <h2 class="text-6xl mb-4">
                 Recent Projects
@@ -46,7 +52,7 @@
             </div>
             <div class="projects-content animate__animated animate__fadeInUp">
                 <div class="projects-intro-text">
-                    <p>Here are some of my personal projects. Get in touch or have a look at my resume if you would like to see the projects I've done for work.</p>
+                    <p>Here are some of my work and personal projects. <RouterLink to="/contact">Get in touch</RouterLink> or have check out my resume if you would like to know more.</p>
                 </div>
                
                 <div class="project-cards-wrapper grid sm:grid-cols-2 grid-cols-1 gap-4">
@@ -57,7 +63,8 @@
                     :url="project.url"
                     :imgURL="project.imgURL"
                     :description="project.description"
-                    :builtWith="project.builtWith">
+                    :builtWith="project.builtWith"
+                    :builtText="project.builtText">
                     </ProjectItem>
                 </div>
 

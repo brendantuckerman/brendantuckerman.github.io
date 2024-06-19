@@ -11,7 +11,7 @@ import TheWelcome from '../components/TheWelcome.vue'
         </h2>
       </div>
       <div class="animate__animated animate__fadeInUp">
-        <h3 class="text-2xl text-grey">
+        <h3 class="text-2xl text-[#fff] mb-2">
           I'm Brendan  <span class="animate-waving-hand">👋</span>
         </h3>
         <div class="hello-world-text">

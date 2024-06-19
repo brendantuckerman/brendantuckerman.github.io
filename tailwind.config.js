@@ -12,7 +12,8 @@ export default {
 
       },
       'purple': '#6A04AF', //bg-2
-      'grey': '#BFBFBF'
+      'grey': '#BFBFBF',
+      'white': '#ffffff'
 
     },
     container:{

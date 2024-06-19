@@ -37,3 +37,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+Old build:
+
+// "build": "run-p type-check \"build-only {@}\" --",

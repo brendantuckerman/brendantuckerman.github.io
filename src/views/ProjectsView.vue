@@ -52,7 +52,7 @@
             </div>
             <div class="projects-content animate__animated animate__fadeInUp">
                 <div class="projects-intro-text">
-                    <p>Below is a sample of my work and personal projects. <RouterLink to="/contact" class="underline text-[#fff]">Get in touch</RouterLink> or have check out my <a href="" rel="nofollow" target="_blank" class="text-[#fff] underline">resume</a> if you would like to know more.</p>
+                    <p>Below is a sample of my work and personal projects. <RouterLink to="/contact" class="underline text-[#fff]">Get in touch</RouterLink> or have check out my <a href="" rel="nofollow" target="_blank" class="text-white underline">resume</a> if you would like to know more.</p>
                 </div>
                
                 <div class="project-cards-wrapper grid sm:grid-cols-2 grid-cols-1 gap-4">

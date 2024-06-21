@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a as s}from"./index-VxRGfyZC.js";const c={},a={class:"about container border-l h-3/4"},n=s("h2",{class:"text-4xl"},"This is an about page",-1),r=[n];function _(i,d){return t(),o("div",a,r)}const h=e(c,[["render",_]]);export{h as default};

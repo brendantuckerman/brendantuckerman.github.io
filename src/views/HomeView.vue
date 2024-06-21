@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <section class="flex flex-col gap-2 border-l-[1px] border-grey p-12">
+    <section class="flex flex-col gap-2 sm:border-l-[1px] border-grey sm:p-12 p-4 overflow-scroll sm:overflow-none h-[250px] sm:h-auto">
       <div class="hello-title animate__animated animate__fadeInDown">
         <h2 class="text-6xl">
           Hello World!

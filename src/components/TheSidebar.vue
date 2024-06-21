@@ -6,12 +6,12 @@
             
             <li v-for="link in navLinks" 
                 :key="link.path"
-                class="relative flex flex-col text-xs gap-2 h-8 w-8" 
+                class="relative flex flex-col text-xs gap-2 h-8 w-8 " 
             > 
                 <RouterLink 
                     v-if="!link.external"
                     :to="link.path" 
-                    class="icon-link flex flex-col justify-center items-center"
+                    class="flex flex-col justify-center items-center"
                     custom 
                     v-slot="{ isActive, href, navigate}"
                 >
@@ -19,6 +19,7 @@
                      :href="href" 
                      @click="navigate" 
                       :class="{ 'selected-icon': isActive }"
+                      class="flex flex-col justify-center items-center gap-2 icon-link"
                     >
 
                         <font-awesome-icon :icon="link.icon" class="icon"/>
@@ -29,7 +30,7 @@
                 <a
                     v-else
                     :href="link.path" 
-                    class="icon-link flex flex-col justify-center items-center"
+                    class="icon-link flex flex-col justify-center items-center gap-2"
                     target="_blank"
                     ref="nofollow noopener"
                 >
@@ -48,11 +49,10 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import { useRoute } from 'vue-router';
+import { ref } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-const route = useRoute();
+
 
 const navLinks = ref([
     {name: "home", path: "/", icon:['fas', 'house'], external: false },
@@ -63,9 +63,7 @@ const navLinks = ref([
     
 ])
 
-const isSelectedIcon = computed(() => {
-  return route.path === '/projects';
-});
+
 </script>
 
 <style scoped>
@@ -74,8 +72,11 @@ const isSelectedIcon = computed(() => {
     @apply h-6;
 }
 
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:hover a {
     @apply text-white;
+    transform:  scale(1.1);
+    transition: all 0.7s ease;
         
 }
 
@@ -89,17 +90,23 @@ const isSelectedIcon = computed(() => {
 }
 
 
-.icon-link:hover .icon{
+.icon-link:hover .icon,
+.icon-link:hover a
+{
     @apply text-white;
+   
 }
 
 
 
-    .selected-icon{
-        .icon{
-            @apply text-[#fff];
-        }
+.selected-icon{
+    .icon
+     {
+        @apply text-white;
     }
 
+    color: white !important;
+  
+}
 
 </style>

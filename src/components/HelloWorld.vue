@@ -6,8 +6,8 @@ defineProps<{
 
 <template>
   <div class="greeting flex flex-col justify-center items-center gap-4 ">
-    <h1 class="text-6xl text-center">{{ msg }}</h1>
-    <h2 class="text-4xl">
+    <h1 class=" text-3xl sm:text-6xl text-center">{{ msg }}</h1>
+    <h2 class="text-xl sm:text4xl">
      Web Developer
     </h2>
     <ul class="flex px-4 gap-8">
@@ -22,6 +22,12 @@ defineProps<{
 
 .icon{
   @apply h-10;
+}
+
+svg:hover{
+  @apply text-white;
+  transform:  scale(1.3);
+  transition: all 0.5s ease;
 }
 
 

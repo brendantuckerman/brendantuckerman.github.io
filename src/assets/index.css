@@ -19,7 +19,7 @@ html{
 
 h1,
 h2{
-    @apply text-[#fff] font-bold;
+    @apply text-white font-bold;
 
 }
 

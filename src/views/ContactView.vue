@@ -1,6 +1,6 @@
 <template>
    <main>
-    <section class="flex flex-col gap-2 sm:border-l-[1px] border-grey p-12">
+    <section class="flex flex-col gap-4  sm:p-12 sm:max-h-[80vh] overflow-scroll sm:border-l-[1px] border-grey p-4  h-[250px] sm:h-auto">
         <div class="contact-title animate__animated animate__fadeInDown">
             <h2 class="text-6xl mb-4">
             Get in touch

@@ -1,12 +1,12 @@
 <template>
     <main>
-     <section class="flex flex-col gap-2 border-l-[1px] border-grey p-12">
+     <section class="flex flex-col gap-2 sm:border-l-[1px] border-grey sm:p-12 p-4 overflow-scroll h-[250px] sm:h-auto">
          <div class="contact-title animate__animated animate__fadeInDown">
              <h2 class="text-6xl mb-4 text-center">
             Key skills
              </h2>
          </div>
-         <div class="contact-content animate__animated animate__fadeInUp flex flex-col overflow-hidden max-h-screen">
+         <div class="contact-content animate__animated animate__fadeInUp flex flex-col sm:overflow-hidden max-h-screen">
             <div class="skill-introduction">
                 <p>Below are some of the key technologies and skills developed in my career.</p>
                 <p>Be sure to see my  <a href="" rel="nofollow" target="_blank" class="text-white underline">resume</a> for more.</p>

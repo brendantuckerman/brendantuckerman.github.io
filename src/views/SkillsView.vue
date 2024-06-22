@@ -21,7 +21,7 @@
 
                 <div class="skill-item flex flex-col gap-2 justify-center items-center">
                     <i class="devicon-html5-plain-wordmark"></i>
-                    <p>HTML5 with a focus on accessbility</p>
+                    <p>HTML5 with a focus on accessibility</p>
                 </div>
 
                 <div class="skill-item flex flex-col gap-2 justify-center items-center">

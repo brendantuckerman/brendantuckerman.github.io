@@ -3,39 +3,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-body{
-    background: 
-    linear-gradient(to top, #25040528, #340156),
-        url(./img/bg-texture.webp);
-    @apply bg-no-repeat bg-center bg-cover;
-
+body {
+  background: linear-gradient(to top, #25040528, #340156), url(./img/bg-texture.webp);
+  @apply bg-no-repeat bg-center bg-cover;
 }
 
-html{
-    font-family: "Montserrat", sans-serif;
+html {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1,
-h2{
-    @apply text-white font-bold;
-
+h2 {
+  @apply text-white font-bold;
 }
 
-h3
-h4,
+h3 h4,
 h5,
 h6,
 p,
 span,
 a,
 i,
-svg{
-    @apply text-grey;
-}   
+svg {
+  @apply text-grey;
+}
 
-
-p{
-    @apply mb-4;
+p {
+  @apply mb-4;
 }

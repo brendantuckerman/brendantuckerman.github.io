@@ -3,4 +3,3 @@
     <h2 class="text-4xl">This is an about page</h2>
   </div>
 </template>
-

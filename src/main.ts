@@ -28,7 +28,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faHouse, faBook, faAddressBook, faWrench,  faPaperclip, faMastodon, faGithub, faLinkedin )
+library.add(faHouse, faBook, faAddressBook, faWrench, faPaperclip, faMastodon, faGithub, faLinkedin)
 
 const app = createApp(App)
 
@@ -37,4 +37,3 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
-

@@ -30,12 +30,12 @@
     
    },
    {
-    name: "Curriculum Tool",
-    url: "https://github.com/brendantuckerman/curriculum-tool-db",
-    imgURL: "assets/img/ct-screen.webp",
-    description: "A Ruby on Rails project that models the Australian National Curriculum as a back end.",
-    builtWith: ["devicon-ruby-plain-wordmark", "devicon-javascript-plain"],
-    builtText: ["#Ruby", "#Javascript" ],
+    name: "Digital Identiity Rebuild",
+    url: "https://digitalidentitysystems.gov.au/",
+    imgURL: "assets/img/digid.webp",
+    description: "A rebuild of the D10 Digital Identity site",
+    builtWith: ["devicon-drupal-plain-wordmark", "devicon-tailwindcss-plain"],
+    builtText: ["#Drupal10", "#TailwindCSS" ],
    
    }, 
  ]

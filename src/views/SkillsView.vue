@@ -15,7 +15,7 @@
                 
                 <div class="skill-item flex flex-col gap-2 justify-center items-center ">
                     <i class="devicon-drupal-plain-wordmark"></i>
-                    <p>Drupal 8, 9, and 10</p>
+                    <p>Drupal 8 - 11</p>
                 </div>
                     
 
@@ -46,7 +46,7 @@
                 </div>
                 <div class="skill-item flex flex-col gap-2 justify-center items-center">
                     <i class="devicon-gitlab-plain-wordmark"></i>
-                    <p>Git and Gitlab for managing the project.</p>
+                    <p>Git, Githu and Gitlab for managing the project.</p>
                 </div>
                 <div class="skill-item flex flex-col gap-2 justify-center items-center">
                     <i class="devicon-mysql-original"></i>
